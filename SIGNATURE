@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 19f15e43b2d315af1298bf68c8a5554fa1b0df51 Changes
+SHA1 714d14811e3c65e348c8aa136e4e868fd8e7f56b INSTALL
+SHA1 6b50b30fa6f8d063d96e32c9a81f3f82328925f7 LICENSE
+SHA1 ae43a3a68ba87b9bae38d79fc05ebfe4ee9c9967 MANIFEST
+SHA1 19dd07906f5c77511180c7b10afe5ab32215c712 META.json
+SHA1 12ea75313be7586b162b023c4480424db58205fb META.yml
+SHA1 8710f3de0217318cb4aa791750065cd731ea0ef7 Makefile.PL
+SHA1 ebef758c42e427280a4b8cee68a0850a6a6a36f2 README
+SHA1 9c7391d6da7d75e20f59e769aab11bf3a2de4372 cpanfile
+SHA1 32a2a195c164c2523da84c055c24795a3225164a dist.ini
+SHA1 807a48cf01f4251164191eebb85b5c2ec71a61c8 examples/socks-connect.pl
+SHA1 1e317f9d6b25c8c6b8d5b7565ae9c9e59283b1c6 lib/Net/Async/SOCKS.pm
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 25921e4301c2177aa48a3c1d5a537f2b2fa1806a t/00-compile.t
+SHA1 3fb8f7da14ddc5c201a72a7e45bc6a4bd221aab7 t/000-report-versions-tiny.t
+SHA1 9b232b6ecc26e9fadcb802e570212e13b485a2e2 t/protocol.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJT+OWUAAoJEFKElMNpjtyDNEMIANS40y5gdpvesDZscYALW236
+l0RmCuJmWIw8WVphhbkr5IVtHr32j3QWc4txna2CcsQHnaGTy9aclqFd1rDl+Qq9
+xtShax8PtGoTgTjySp22yED2x4Kddi+amelzTiKEZuxEyXQaq2pesY6/GOkrCbOc
+UtW/F5HOhWGXkS9Nh4C7VcvYJ/GcyRbKmQDbGmiPzLjvR4gb6qxoMGZupWXYK7tl
+iwaqqXamU2HprlcmcbpQz+IKw7mcOLFfwLm7pU051QsfoaGctV9nMbcDfBidOUZi
+2MWY/51SIn0a1HikMlphgbSl4W/OTgsZ220+zfw6aXSZHmg1+CX93XNgbW6Rqbk=
+=ziFD
+-----END PGP SIGNATURE-----
