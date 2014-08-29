@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Net-Async-SOCKS,
-version 0.001:
+version 0.002:
 
   basic SOCKS5 connection support for IO::Async
 

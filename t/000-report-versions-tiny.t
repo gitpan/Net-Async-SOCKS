@@ -58,6 +58,7 @@ eval { $v .= pmver('IPC::Open3','any version') };
 eval { $v .= pmver('Protocol::SOCKS','0.003') };
 eval { $v .= pmver('Test::CheckDeps','0.010') };
 eval { $v .= pmver('Test::Fatal','0.010') };
+eval { $v .= pmver('Test::HexString','any version') };
 eval { $v .= pmver('Test::More','0.98') };
 eval { $v .= pmver('Test::Refcount','0.07') };
 eval { $v .= pmver('parent','any version') };
